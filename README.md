@@ -5,3 +5,6 @@ Created to gain familiarity with Docker. Based around the following Docker image
 https://hub.docker.com/r/itzg/minecraft-server
 
 Available for both Bedrock/Java editions. Port forwarding must be enabled first for it to work!
+
+To build and spin up, cd into the appropriate folder and use:
+`docker-compose up`
