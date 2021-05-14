@@ -1,0 +1,16 @@
+version: '3'
+# Other docker-compose examples in /examples
+
+services:
+  minecraft:
+    image: itzg/minecraft-bedrock-server
+    ports:
+      - "19132:19132"
+    volumes:
+      - C:\Users\matthew\Documents\docker-mc-server\bedrock_server:/data
+    environment:
+      EULA: "TRUE"
+    restart: unless-stopped
+
+volumes:
+  mc: {}
