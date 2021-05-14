@@ -5,7 +5,7 @@ services:
   minecraft:
     image: itzg/minecraft-bedrock-server
     ports:
-      - "19132:19132"
+      - "19132:19132/udp"
     volumes:
       - C:\Users\matthew\Documents\docker-mc-server\bedrock_server:/data
     environment:
